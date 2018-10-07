@@ -1,0 +1,63 @@
+/* all page styling */
+* {
+  font-family: Mali;
+}
+body {
+  background-color:#232323;
+  width: 80%;
+  margin: auto;
+/* header styling */
+}
+nav {
+  background-color: #2622FF;
+  height: 10%;
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 20px 40px 0;
+}
+a {
+  text-decoration: none;
+  color: #11F0D5;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* main styling */
+main{
+
+}
+main div{
+  color: #11e0c4;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 22px;
+  letter-spacing: 0.25em;
+  word-spacing: 0.5em;
+}
+main h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #777;
+  text-transform: uppercase;
+}
+/* footer styling */
+footer {
+  width: 100%;
+  color: #11F0D5;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#adrese, #telef, #mail {
+    display: inline;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+#Carousel{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
